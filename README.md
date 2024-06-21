@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🌈 Desafio de Voluntariado em Front End na Lacrei Saúde 🌟
 
-First, run the development server:
+<img src="https://lacrei.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F25b45dd4-8819-4957-87f6-fe9bc5022a95%2F6617abc1-beda-40a2-a33d-c6df7c8ca19a%2FAvatar_Redes_Sociais.png?table=block&id=1e2a4e4b-ee81-4d6d-b766-301f565b3a85&spaceId=25b45dd4-8819-4957-87f6-fe9bc5022a95&width=250&userId=&cache=v2" >
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Sobre o Desafio
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O desafio consiste em desenvolver uma aplicação web utilizando next, são duas páginas web interativas, com roteamento entre elas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+:construction: **Em construção** :construction:
