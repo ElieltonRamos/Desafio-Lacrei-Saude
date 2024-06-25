@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Image from "next/image";
 import * as s from "./style";
+import * as b from "@/components/buttons";
 
 function Main() {
   return (
@@ -9,12 +10,12 @@ function Main() {
       <s.div>
         <div>
           <article>
-            <h1>Bem vindo a Lacrei Saúde</h1>
-            <h2>Uma plataforma para ajudar pessoas da comunidade LGBTQIAPN+</h2>
+            <s.h1>Bem vindo a Lacrei Saúde</s.h1>
+            <s.text>Uma plataforma para ajudar pessoas da comunidade LGBTQIAPN+</s.text>
           </article>
           <section>
-            <button>Usuarios</button>
-            <button>Profissionais</button>
+            <b.buttonPrimary>Usuarios</b.buttonPrimary>
+            <b.buttonPrimary>Profissionais</b.buttonPrimary>
           </section>
         </div>
         <Image src="/ilustracao-saude.avif" alt="logo" width={558} height={558} />

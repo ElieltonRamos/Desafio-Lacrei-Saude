@@ -9,7 +9,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    --green100: #f5fefa;
+    --green-ligth: #f5fefa;
+    --green-midlle: #068762;
+    --gray-ligth: #807474;
   }
 `;
 
