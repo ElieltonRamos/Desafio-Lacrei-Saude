@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 export const buttonSecundary = styled.button`
   border-radius: 8px;
-  border: 2px solid green;
+  border: 2px solid var(--green-midlle);
   padding: 10px 32px;
-  color: green;
+  color: var(--green-midlle);
   background-color: white;
 `
 
