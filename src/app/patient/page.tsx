@@ -1,8 +1,8 @@
 function Patient() {
   return (
-    <div>
+    <main>
       <h1>Patient</h1>
-    </div>
+    </main>
   );
 }
 
