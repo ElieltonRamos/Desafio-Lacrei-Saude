@@ -4,10 +4,14 @@ import styled from "styled-components";
 export const div = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   padding: 24px;
+
+  @media (max-width: 1040px) {
+    flex-direction: column;
+  }
 `;
 
 export const text = styled.p`
