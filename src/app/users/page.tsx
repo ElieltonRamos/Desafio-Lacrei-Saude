@@ -9,14 +9,16 @@ function Patient() {
   const router = useRouter();
 
   const buttonReturnHome = <b.buttonPrimary onClick={() => router.back}>Retornar</b.buttonPrimary>
+  const buttonRedirectService = <b.buttonPrimary onClick={() => router.push('https://paciente.lacreisaude.com.br/')}>Buscar Atendimento</b.buttonPrimary>
+
   return (
     <>
       <Header />
       <Main
-        title=""
-        text=""
-        image="/images/patient.jpg"
-        btns={[buttonReturnHome]}
+        title="Para Usuários"
+        text="Conecte-se a profissionais da saúde que estudam as necessidades da comunidade LGBTQIAPN+."
+        image="/users.svg"
+        btns={[buttonReturnHome, buttonRedirectService]}
       />
       <Footer />
     </>
