@@ -20,7 +20,6 @@ export const buttonPrimary = styled.button`
   margin: 0.5rem;
   border: none;
   color: white;
-  width: 110px;
 
   &:hover {
       opacity: 0.8;
