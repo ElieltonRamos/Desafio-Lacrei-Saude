@@ -9,7 +9,7 @@ function Professionals() {
   const router = useRouter();
 
   const buttonReturnHome = <b.buttonPrimary onClick={() => router.back()}>Retornar</b.buttonPrimary>
-  const buttonRedirectService = <b.buttonPrimary onClick={() => router.push('https://profissional.lacreisaude.com.br/')}>Buscar Atendimento</b.buttonPrimary>
+  const buttonRedirectService = <b.buttonPrimary onClick={() => router.push('https://profissional.lacreisaude.com.br/')}>Faça Parte</b.buttonPrimary>
   return (
     <>
       <Header />
