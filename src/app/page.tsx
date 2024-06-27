@@ -8,8 +8,8 @@ import { useRouter } from 'next/navigation';
 export default function Home() {
   const router = useRouter();
 
-  const buttonUser = <s.buttonPrimary onClick={() => router.push('/users')}>Usuários</s.buttonPrimary>;
-  const buttonProfessionals = <s.buttonPrimary onClick={() => router.push('/professionals')}>Profissionais</s.buttonPrimary>;
+  const buttonUser = <s.buttonPrimary key={1} onClick={() => router.push('/users')}>Usuários</s.buttonPrimary>;
+  const buttonProfessionals = <s.buttonPrimary key={2} onClick={() => router.push('/professionals')}>Profissionais</s.buttonPrimary>;
 
   return (
     <>

@@ -8,8 +8,8 @@ import { useRouter } from 'next/navigation';
 function Patient() {
   const router = useRouter();
 
-  const buttonReturnHome = <b.buttonPrimary onClick={() => router.back()}>Retornar</b.buttonPrimary>
-  const buttonRedirectService = <b.buttonPrimary onClick={() => router.push('https://paciente.lacreisaude.com.br/')}>Buscar Atendimento</b.buttonPrimary>
+  const buttonReturnHome = <b.buttonPrimary key={1} onClick={() => router.back()}>Retornar</b.buttonPrimary>
+  const buttonRedirectService = <b.buttonPrimary key={2} onClick={() => router.push('https://paciente.lacreisaude.com.br/')}>Buscar Atendimento</b.buttonPrimary>
 
   return (
     <>

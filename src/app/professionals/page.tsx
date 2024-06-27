@@ -8,8 +8,8 @@ import { useRouter } from 'next/navigation';
 function Professionals() {
   const router = useRouter();
 
-  const buttonReturnHome = <b.buttonPrimary onClick={() => router.back()}>Retornar</b.buttonPrimary>
-  const buttonRedirectService = <b.buttonPrimary onClick={() => router.push('https://profissional.lacreisaude.com.br/')}>Faça Parte</b.buttonPrimary>
+  const buttonReturnHome = <b.buttonPrimary key={1} onClick={() => router.back()}>Retornar</b.buttonPrimary>
+  const buttonRedirectService = <b.buttonPrimary key={2} onClick={() => router.push('https://profissional.lacreisaude.com.br/')}>Faça Parte</b.buttonPrimary>
   return (
     <>
       <Header />
