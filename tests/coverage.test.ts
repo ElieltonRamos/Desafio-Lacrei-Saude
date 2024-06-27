@@ -1,6 +1,6 @@
 import { readFile } from "fs/promises";
 
-describe('Coverage', () => {
+describe('Coverage development', () => {
   let colectCoverage = { total: { lines: { pct: 0 }, statements: { pct: 0 }, branches: { pct: 0 }, functions: { pct: 0 } }};
 
   beforeAll(async () => {
