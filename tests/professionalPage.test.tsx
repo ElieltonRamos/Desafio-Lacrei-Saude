@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom'
 import { render, screen, within } from '@testing-library/react'
-import Page from '../src/app/users/page'
+import Page from '../src/app/professionals/page'
 
 jest.mock('next/navigation', () => ({
   useRouter: jest.fn().mockImplementation(() => ({
@@ -13,8 +13,8 @@ jest.mock('next/navigation', () => ({
   })),
 }));
 
-describe('Users Page', () => {
-  it('checks if all components have been rendered in the user context', () => {
+describe('Professional Page', () => {
+  it('checks if all components have been rendered in the context of the professional', () => {
     render(<Page />)
 
     const header = screen.getByRole('banner')
@@ -26,15 +26,15 @@ describe('Users Page', () => {
 
     const heading = screen.getByRole('heading', { level: 1 })
     expect(heading).toBeInTheDocument()
-    expect(heading.textContent).toBe('Para Usuários')
+    expect(heading.textContent).toBe('Para Profissionais')
 
-    const text = screen.getByText(/Conecte-se a profissionais da saúde que estudam as necessidades da comunidade LGBTQIAPN+./i)
+    const text = screen.getByText(/Buscamos profissionais da saúde qualificados que priorizam o bem-estar físico e mental de pessoas LGBTQIAPN+../i)
     expect(text).toBeInTheDocument()
 
     const btnUsers = screen.getByRole('button', { name: /retornar/i })
     expect(btnUsers).toBeInTheDocument()
 
-    const btnProfessionals = screen.getByRole('button', { name: /buscar atendimento/i })
+    const btnProfessionals = screen.getByRole('button', { name: /faça parte/i })
     expect(btnProfessionals).toBeInTheDocument()
 
     const main = screen.getByRole('main');
