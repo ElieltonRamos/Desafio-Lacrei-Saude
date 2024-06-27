@@ -10,6 +10,7 @@ const createJestConfig = nextJest({
 const config: Config = {
   rootDir: './',
   coverageProvider: 'v8',
+  coverageReporters: ['json-summary', 'text'],
   testEnvironment: 'jsdom',
   moduleNameMapper: {
     '^@/components/(.*)$': '<rootDir>/src/components/$1',
